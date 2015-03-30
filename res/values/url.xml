@@ -1,0 +1,7 @@
+<resources>
+    <string name="url_top">http://192.168.11.99/tinyshop</string>
+    <string name="url_event">http://192.168.11.99/tinyshop/article_list.html</string>
+    <string name="url_person">http://192.168.11.99/tinyshop/user-home.html</string>
+    <string name="url_shop">http://192.168.11.99/tinyshop/cart-s.html</string>
+    <string name="url_category">http://192.168.11.99/tinyshop/category_index.html</string>
+</resources>

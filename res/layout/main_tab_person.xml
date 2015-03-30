@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#fcfcfc"
+              android:orientation="vertical" >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:id="@+id/title"
+                android:background="@drawable/title_bar"
+                android:gravity="center_vertical"  >
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自己"
+                    android:layout_centerInParent="true"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff" />
+            <ImageButton
+                    android:id="@+id/right_btn"
+                    android:layout_width="67dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/title_btn_function"
+                    android:background="@drawable/title_btn_right"
+                    android:onClick="btnmainright"
+                    />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scan_btn"
+                android:src="@drawable/mm_title_btn_keyboard_normal"
+                android:onClick="scanView"
+                android:background="@drawable/title_btn_right" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:id="@+id/personWebView" />
+
+</LinearLayout>
